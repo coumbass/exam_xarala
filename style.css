@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    transition: 0.2s;
+    
+}
+.menu li a:hover{
+    color: blue;
+}
+
+#home {
+    margin-top: 180px;
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+
+#home .left li{
+    list-style: none;
+}
+
+#home .left h1{
+    font-size: 55px;
+    margin-bottom: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+}
+
+#home .left p {
+     font-size: 30px;
+     font-weight: 300;
+     margin-bottom: 10px;
+}
+
+#home .right li {
+    list-style: none;
+}
+
+#home .right {
+    width: 50%;
+    list-style: none;
+    position: absolute;
+    margin-left: 500px;
+}
+#home .right button {
+    padding: 25px 30px;
+    border-radius: 100px;
+    border: 2px solid rgb(6, 94, 165);
+    background-color: white;
+    color: rgb(6, 94, 165);
+    font-size: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 150px; 
+    margin-top: 10px; 
+}
+
+#home.right button:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+#propos {
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -200px;
+}
+
+
+
+#propos .left li{
+    list-style: none;
+    width: 50%;
+
+}
+
+#propos .left h2{
+    font-size: 55px;
+    margin-bottom: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+    color: rgb(6, 94, 165);
+}
+
+#propos .left p {
+     font-size: 30px;
+     font-weight: 300;
+     margin-bottom: 10px;
+}
+
+#propos .right li {
+    list-style: none;
+}
+
+#propos .right {
+    width: 50%;
+    list-style: none;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+
+#propos .right img{
+    margin-top: -115px;
+    position: absolute;
+    height: 200px;
+
+}
+
+#propos .left a{
+    background-color: rgb(6, 94, 165);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    width: 500%;
+}
+
+
+#portfolio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.menu-container {
+    width: 100%;
+    max-width: 1200px; /* Optional: limit the maximum width */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.menu-container .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu-container .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.menu-container .menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #c0c0c0;
+    margin-left: 100px;
+}
+
+.menu-container .menu li:last-child {
+    border-bottom: none;
+}
+
+
+#home .left li{
+    list-style: none;
+}
+
+#portofolio1 {
+    margin-top: -40px;
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+#portofolio1 .left {
+    width: 50%;
+}
+
+#portofolio1 .left h1 {
+    font-size: 30px;
+    margin-bottom: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+    color: rgb(6, 94, 165);
+}
+
+#portofolio1 .left p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#portofolio1 .left button { 
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    transition: 0.2s;
+     width: 100%;
+     background-color:  rgb(6, 94, 165);
+     border-radius: 50px;
+
+}
+
+
+#portofolio1 .right {
+    width: 40%;
+    position: absolute;
+    right: 7%;
+}
+
+#portofolio1 .image-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#portofolio1 .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#services {
+    padding: 50px 0;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+#services .service {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#services h2{
+    float: left;
+    margin-top: -50px;
+}
+#services .service1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+#services .service-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+}
+
+#services .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#services .service-item p {
+    font-size: 18px;
+    color: #666;
+}
+
+
+.experience {
+    padding: 50px 0;
+    text-align: center;
+    margin-left: 100px;
+}
+.experience h2 {
+    float: left;
+    margin-top: -50px;
+}
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px; 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 60px; 
+    margin-bottom: 20px; 
+    flex-basis: 100%; 
+}
+
+.logos img {
+    width: 100px; 
+    height: auto;
+    max-width: 100%;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.contact-info,
+.contact-form {
+    width: 45%;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-item i {
+    width: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
